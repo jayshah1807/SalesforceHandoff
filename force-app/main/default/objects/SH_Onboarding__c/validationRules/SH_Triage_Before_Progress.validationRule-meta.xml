@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SH_Triage_Before_Progress</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(ISPICKVAL(Status__c, "In Progress"), ISPICKVAL(Status__c, "Complete")), OR(Needs_Triage__c, BEGINS(OwnerId, "00G")))</errorConditionFormula>
+    <errorMessage>Assign a user owner and clear Needs Triage before starting or completing onboarding.</errorMessage>
+</ValidationRule>

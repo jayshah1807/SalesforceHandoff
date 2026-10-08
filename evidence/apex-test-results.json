@@ -1,0 +1,94 @@
+{
+  "executedAt": "2026-10-07T16:34:31.000Z",
+  "environment": "Salesforce Developer Edition",
+  "class": "SH_HandoffTests",
+  "testsRun": 17,
+  "failures": 0,
+  "tests": [
+    {
+      "method": "assignedHandoffCopiesBusinessData",
+      "result": "Pass",
+      "durationMs": 843
+    },
+    {
+      "method": "bulkCloseCreatesOnePerOpportunity",
+      "result": "Pass",
+      "durationMs": 2014
+    },
+    {
+      "method": "coordinatorCanClaimQueuedRequest",
+      "result": "Pass",
+      "durationMs": 2083
+    },
+    {
+      "method": "coordinatorPersonaCanProgressOwnedRequest",
+      "result": "Pass",
+      "durationMs": 1515
+    },
+    {
+      "method": "duplicateKeyIsRejected",
+      "result": "Pass",
+      "durationMs": 425
+    },
+    {
+      "method": "failedRequestCreationRollsBackSource",
+      "result": "Pass",
+      "durationMs": 3036
+    },
+    {
+      "method": "missingDetailsBlockSave",
+      "result": "Pass",
+      "durationMs": 303
+    },
+    {
+      "method": "openDealWaitsUntilWon",
+      "result": "Pass",
+      "durationMs": 412
+    },
+    {
+      "method": "overdueExcludesCompletedRequests",
+      "result": "Pass",
+      "durationMs": 382
+    },
+    {
+      "method": "reopenAndReclosePreservesRequest",
+      "result": "Pass",
+      "durationMs": 560
+    },
+    {
+      "method": "repeatedEditsDoNotDuplicateOrOverwrite",
+      "result": "Pass",
+      "durationMs": 492
+    },
+    {
+      "method": "salesPersonaCanReadButCannotEditRequest",
+      "result": "Pass",
+      "durationMs": 1321
+    },
+    {
+      "method": "sourceKeyCannotBeChanged",
+      "result": "Pass",
+      "durationMs": 446
+    },
+    {
+      "method": "triageCanBeResolved",
+      "result": "Pass",
+      "durationMs": 397
+    },
+    {
+      "method": "triageCannotBeSkipped",
+      "result": "Pass",
+      "durationMs": 438
+    },
+    {
+      "method": "unassignedHandoffRoutesToQueue",
+      "result": "Pass",
+      "durationMs": 441
+    },
+    {
+      "method": "unselectedDealIsUnaffected",
+      "result": "Pass",
+      "durationMs": 256
+    }
+  ]
+}

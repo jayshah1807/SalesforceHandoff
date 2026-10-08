@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-07T16:42:46.053Z",
+  "edition": "Developer Edition",
+  "trialExpiration": null,
+  "requests": [
+    {
+      "number": "ONB-0000",
+      "opportunity": "DEMO - Northstar Demo Systems",
+      "status": "In Progress",
+      "triage": false,
+      "overdue": false
+    },
+    {
+      "number": "ONB-0001",
+      "opportunity": "DEMO - Harbour Demo Analytics",
+      "status": "Needs Triage",
+      "triage": true,
+      "overdue": false
+    },
+    {
+      "number": "ONB-0002",
+      "opportunity": "DEMO - Maple Demo Manufacturing",
+      "status": "Ready",
+      "triage": false,
+      "overdue": true
+    }
+  ],
+  "reportTotals": [
+    {
+      "name": "Status_and_Aging",
+      "rows": 3
+    },
+    {
+      "name": "Overdue_Requests",
+      "rows": 1
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "xml_files_parsed": 35,
+  "test_methods_prepared": 17,
+  "errors": [],
+  "scope": "Local structure only; Salesforce compilation, test execution and UAT remain separate."
+}

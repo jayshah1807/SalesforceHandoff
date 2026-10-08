@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>SH_Onboarding__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Onboarding operations and aging.</description>
+    <label>Handoff Onboarding Requests</label>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Owner</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Opportunity__c</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Status__c</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Requested_Start__c</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Needs_Triage__c</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Age_Days__c</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Overdue__c</field>
+            <table>SH_Onboarding__c</table>
+        </columns>
+        <masterLabel>Onboarding</masterLabel>
+    </sections>
+</ReportType>

@@ -1,0 +1,79 @@
+{
+  "check": "Salesforce metadata dry run",
+  "checked_at": "2026-10-07T04:54:04.000Z",
+  "check_only": true,
+  "status": "Failed",
+  "target_edition": "Base Edition",
+  "trial_expiration": "2026-11-07",
+  "component_errors": 13,
+  "tests_executed": 0,
+  "failures": [
+    {
+      "component": "SH_HandoffTests",
+      "type": "ApexClass",
+      "problem": "Not available for deploy for this organization"
+    },
+    {
+      "component": "SH_HandoffTests",
+      "type": "ApexClass",
+      "problem": "Not available for deploy for this organization"
+    },
+    {
+      "component": "SH_Onboarding__c",
+      "type": "CustomObject",
+      "problem": "reached maximum number of custom objects"
+    },
+    {
+      "component": "SH_Onboarding",
+      "type": "ReportType",
+      "problem": "In field: baseObject - no CustomObject named SH_Onboarding__c found"
+    },
+    {
+      "component": "SH_Handoff/Overdue_Requests",
+      "type": "Report",
+      "problem": "invalid report type"
+    },
+    {
+      "component": "SH_Handoff/Status_and_Aging",
+      "type": "Report",
+      "problem": "invalid report type"
+    },
+    {
+      "component": "SH_Handoff/Operations",
+      "type": "Dashboard",
+      "problem": "Chart dashboard components require the sortBy attribute"
+    },
+    {
+      "component": "SH_Onboarding__c-Onboarding Request Layout",
+      "type": "Layout",
+      "problem": "Parent entity failed to deploy"
+    },
+    {
+      "component": "SH_Onboarding__c",
+      "type": "CustomTab",
+      "problem": "In field: fullName - no CustomObject named SH_Onboarding__c found"
+    },
+    {
+      "component": "SH_Handoff",
+      "type": "CustomApplication",
+      "problem": "Your organization has exceeded the maximum number of custom apps allowed for your organization''s edition of salesforce.com. To learn about options for increasing your organization''s custom app limits, please contact your account executive."
+    },
+    {
+      "component": "SH_Coordinator",
+      "type": "PermissionSet",
+      "problem": "In field: object - no CustomObject named SH_Onboarding__c found"
+    },
+    {
+      "component": "SH_Sales",
+      "type": "PermissionSet",
+      "problem": "In field: object - no CustomObject named SH_Onboarding__c found"
+    },
+    {
+      "component": "SH_Onboarding_Triage",
+      "type": "Queue",
+      "problem": "sObject type 'SH_Onboarding__c' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names."
+    }
+  ],
+  "follow_up": "Superseded by successful Developer Edition deployment on 7 October 2026; see deployment-results.json. Corrected reporting deployed successfully.",
+  "historical": true
+}

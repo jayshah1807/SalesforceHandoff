@@ -1,0 +1,7 @@
+{
+  "check": "Salesforce CLI source-to-metadata conversion",
+  "command": "sf project convert source --root-dir force-app --output-dir <temporary-directory> --json",
+  "status": 0,
+  "warnings": [],
+  "scope": "Local source conversion only. This is not deployment or Salesforce runtime test evidence."
+}

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SH_Require_Handoff_Details</fullName>
+    <active>true</active>
+    <description>Only opted-in won opportunities require handoff details.</description>
+    <errorConditionFormula>AND(SH_Enabled__c, IsWon, OR(ISBLANK(AccountId), ISBLANK(SH_Contact_Email__c), ISBLANK(SH_Start_Date__c), ISBLANK(TRIM(SH_Success_Criteria__c))))</errorConditionFormula>
+    <errorMessage>Handoff requires an Account, Contact Email, Requested Start Date, and Customer Success Criteria. Complete these fields before saving this won opportunity.</errorMessage>
+</ValidationRule>

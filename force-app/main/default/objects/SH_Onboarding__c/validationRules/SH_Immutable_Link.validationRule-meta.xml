@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SH_Immutable_Link</fullName>
+    <active>true</active>
+    <description>Keep the source relationship and unique key consistent.</description>
+    <errorConditionFormula>OR(AND(NOT(ISNEW()), OR(ISCHANGED(Opportunity__c), ISCHANGED(Opportunity_Key__c))), Opportunity_Key__c &lt;&gt; CASESAFEID(Opportunity__c))</errorConditionFormula>
+    <errorMessage>The source Opportunity and Opportunity Key are immutable and must refer to the same opportunity.</errorMessage>
+</ValidationRule>

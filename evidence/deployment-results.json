@@ -1,0 +1,35 @@
+[
+  {
+    "stage": "core-deploy",
+    "status": "Succeeded",
+    "success": true,
+    "checkOnly": false,
+    "completedDate": "2026-10-07T05:01:50.000Z",
+    "numberComponentsDeployed": 30,
+    "numberComponentErrors": 0,
+    "numberTestsCompleted": 15,
+    "numberTestErrors": 0
+  },
+  {
+    "stage": "extended-tests-deploy",
+    "status": "Succeeded",
+    "success": true,
+    "checkOnly": false,
+    "completedDate": "2026-10-07T16:34:31.000Z",
+    "numberComponentsDeployed": 1,
+    "numberComponentErrors": 0,
+    "numberTestsCompleted": 17,
+    "numberTestErrors": 0
+  },
+  {
+    "stage": "report-deploy-2",
+    "status": "Succeeded",
+    "success": true,
+    "checkOnly": false,
+    "completedDate": "2026-10-07T16:36:36.000Z",
+    "numberComponentsDeployed": 5,
+    "numberComponentErrors": 0,
+    "numberTestsCompleted": 0,
+    "numberTestErrors": 0
+  }
+]
